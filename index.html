@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login System</title>
+
+    <!--* Favicons -->
+    <link href="assets/img/user-account.png" rel="icon" />
+
+    <!--* Poppins Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <!-- * CSS Files -->
+    <!-- ^========|> Font awesome library -->
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+
+    <!-- ^========|> Main stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- ^========|> media stylesheet -->
+    <link rel="stylesheet" href="./assets/css/media.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign Up</h1>
+            <form id="signUpForm">
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Name" id="name" />
+                        <span id="nameError" class="error"></span>
+                    </div>
+
+                    <div class="input-field" id="emailField">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email" id="email" />
+                        <span id="emailError" class="error"></span>
+                    </div>
+
+                    <div class="input-field" id="passwordField">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="password" placeholder="Password" id="password" />
+                        <span id="passwordError" class="error"></span>
+                    </div>
+
+                    <div class="btn-field">
+                        <button type="button" id="signupBtn">Sign up</button>
+                        <button type="button" class="disable" id="signinBtn">
+                Sign in
+              </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- ^========|> Main javaScript File-->
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
